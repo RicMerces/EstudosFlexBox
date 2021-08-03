@@ -20,7 +20,7 @@
     margin: 3px;
     background: purple  ;
     color: #fff;
-    flex: 1;
+    flex: 1; 
 }
 
 
@@ -31,4 +31,20 @@
 
 .FlexWrap{
     flex-wrap: wrap;
+}
+
+.row{
+    flex-direction: row;
+}
+
+.row-reverse{
+    flex-direction: row-reverse;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.column-reverse{
+    flex-direction: column-reverse;
 }
