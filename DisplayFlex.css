@@ -4,7 +4,7 @@
 }
 
 .container{
-    padding: 5px;
+    padding: 2px;
     width: 400px;
     margin: 0 auto;
     border: 1px #000 solid;
@@ -20,10 +20,15 @@
     margin: 3px;
     background: purple  ;
     color: #fff;
+    flex: 1;
 }
 
 
 
 .Flex{
     display: flex;
+}
+
+.FlexWrap{
+    flex-wrap: wrap;
 }
