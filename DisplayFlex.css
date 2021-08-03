@@ -3,6 +3,12 @@
     text-align: center;
 }
 
+.info{
+    width: 500px;
+    margin: 0 auto;
+    
+}
+
 .container{
     padding: 2px;
     width: 400px;
@@ -47,4 +53,13 @@
 
 .column-reverse{
     flex-direction: column-reverse;
+}
+
+
+.FlexWrapNowrap{
+    flex-wrap: nowrap;
+}
+
+.FlexWrapReverse{
+    flex-wrap: wrap-reverse;
 }

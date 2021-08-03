@@ -9,8 +9,12 @@
 
 </head>
 <body>
-    <p>O display block cada item ocupa os limites da <i class="fa fa-pagelines" aria-hidden="true"></i></p>
+    
     <h1>Display Block</h1>
+    <div class="info">
+        <p>O display block cada item ocupa os limites da <i class="fa fa-pagelines" aria-hidden="true"></i></p>
+    </div>
+    
     <section class="container Block">
         <div class="item">1</div>
         <div class="item">2</div>
@@ -19,7 +23,10 @@
     </section>
 
     <h1>Display Flex</h1>
-    <p>O display gera um tamanho atraves dos itens dentro da box</p>
+    
+    <div class="info">
+        <p>O display gera um tamanho atraves dos itens dentro da box</p>
+    </div>
     <section class="container Flex">
         <div class="item">TESTE 00</div>
         <div class="item">TESTE 00</div>
@@ -30,7 +37,10 @@
 
     </section>
     <br>
-    <p >O Display Flex permite que ele quebre até ao menos uma frase, porem não divide uma palavra e pode ultrapassar o tamanho de uma box</p>
+    <div class="info">
+        <p >O Display Flex permite que ele quebre até ao menos uma frase, porem não divide uma palavra e pode ultrapassar o tamanho de uma box</p>
+    </div>
+
     <section class="container Flex">
         <div class="item">TESTE 01</div>
         <div class="item">TESTE 01</div>
@@ -44,8 +54,11 @@
         <div class="item">TESTE 01</div>
     </section>
     <br>
-    <p>Usando o flex wrap ocorre a quebra de linha  </p>
-    <p>usando o Flex: 1; permite que ocupe todo o container (possibilita qe tenha tamanhos diferentes)</p>
+    <div class="info">
+        <p>Usando o flex wrap ocorre a quebra de linha  </p>
+        <p>usando o Flex: 1; permite que ocupe todo o container (possibilita qe tenha tamanhos diferentes)</p>
+    </div>
+   
     <section class="container Flex FlexWrap">
         <div class="item">TESTE 02</div>
         <div class="item">TESTE 02</div>
@@ -60,35 +73,89 @@
         <div class="item">TESTE 02</div>
         <div class="item">TESTE 02</div>
     </section>
-    
+
+    <hr>
+
     <h1>Flex Direction</h1>
-    <h4>ROW</h4>
-    <p>ROW é usado como uma maneira para dividir por item o que tem dentro do container</p>
+    <div class="info">
+        <h4>ROW</h4>
+        <p>ROW é usado como uma maneira para dividir por item o que tem dentro do container</p>
+    </div>
+   
     <section class="container Flex row">
         <div class="item">TESTE 03</div>
         <div class="item">TESTE 03</div>
         <div class="item">TESTE 03</div>
     </section>
-    <h4>ROW - REVERSE</h4>
-    <p>A ordem fica invertida do ultimo para o primeiro</p>
+    
+    <div class="info">
+        <h4>ROW - REVERSE</h4>
+        <p>A ordem fica invertida do ultimo para o primeiro</p>
+    </div>
+
     <section class="container Flex row-reverse">
         <div class="item">TESTE 03</div>
         <div class="item">TESTE 03</div>
         <div class="item">TESTE 03</div>
     </section>
-    <h4>COLUMN</h4>
-    <p>Semelhante ao mecanismo do Display block mesmo sendo flex ordenando os itens dentro do container</p>
+    
+    <div class="info">
+        <h4>COLUMN</h4>
+        <p>Semelhante ao mecanismo do Display block mesmo sendo flex ordenando os itens dentro do container</p>
+    </div>
+
     <section class="container Flex column">
         <div class="item">TESTE 03</div>
         <div class="item">TESTE 03</div>
         <div class="item">TESTE 03</div>
     </section>
-    <h4>COLUMN - REVERSE</h4>
-    <p>A ordem fica invertida do ultimo para o primeiro</p>
+    
+    <div class="info">
+        <h4>COLUMN - REVERSE</h4>
+        <p>A ordem fica invertida do ultimo para o primeiro</p>
+    </div>
     <section class="container Flex column-reverse">
         <div class="item">TESTE 03</div>
         <div class="item">TESTE 03</div>
         <div class="item">TESTE 03</div>
     </section>
+
+    <hr>
+
+    <h1>Flex Wrap</h1>
+
+    <div class="info">
+        <h4>Nowrap</h4>
+        <p>ele não quebra a linha quando tem mais informações de um item ultrapassando os limites do container, o que acontece é que os valores de uma frase descem as linhas para caber no container porem se a palavra for grande transborda</p>
+    </div>
+    
+    <section class="container Flex FlexWrapNowrap"> 
+        <div class="item">TESTANDO 04 os valores</div>
+        <div class="item">TESTE apenas para saber se quebra a linha</div>
+        <div class="item">testandoparaversevaifuncionarsequebraalinha</div>
+    </section>
+    
+    <div class="info">
+        <h4>Wrap</h4>
+        <p>Ocorre a quebra de linha para que todos os itens caibam dentro do container, podendo ter gerar medidas diferentes</p>
+    </div>
+    
+    <section class="container Flex FlexWrap"> 
+        <div class="item">TESTANDO 05 os valores</div>
+        <div class="item">TESTE apenas para saber se quebra a linha</div>
+        <div class="item">testandoparaversevaifuncionarsequebraalinha</div>
+    </section>
+
+    <div class="info">
+        <h4>Wrap Reverse</h4>
+        <p>Ordena inversamento os itens da mesma maneira que o wrap so que opostamente</p>
+    </div>
+    
+    <section class="container Flex FlexWrapReverse"> 
+        <div class="item">TESTANDO 06 os valores</div>
+        <div class="item">TESTE apenas para saber se quebra a linha</div>
+        <div class="item">testandoparaversevaifuncionarsequebraalinha</div>
+    </section>
+
 </body>
 </html>
