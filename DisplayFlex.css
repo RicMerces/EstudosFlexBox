@@ -90,3 +90,30 @@ caiba no container */
 .FlexFlowColumnNoWrap{
     flex-wrap: column nowrap;
 }
+
+/* Jusitfy content */
+/* Uma maneira de alinhar os elementos internos a um container 
+(menos quando ta totalizado) */
+
+.JustifyContent .item{
+    flex:none;
+}
+
+.jc-flexStart{
+    justify-content: flex-start;
+}
+.jc-flexEnd{
+    justify-content: flex-end;
+}
+.jc-center{
+    justify-content: center;
+}
+.jc-SpaceBetween{
+    justify-content: space-between;
+}
+
+.jc-SpaceArround{
+    justify-content: space-around;
+}
+
+
