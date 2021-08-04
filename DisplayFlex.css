@@ -72,3 +72,21 @@ caiba no container */
 }
 
 
+/* Flex Flow */
+/* Ele simplifica o codigo onde ele usa tanto os mecanismos do Wrap e do Direction */
+
+.FlexFlowRowNowrap{
+    flex-flow: row nowrap;
+}
+
+.FlexFlowRowWrap{
+    flex-flow: row wrap;
+}
+
+.FlexFlowColumnWrap{
+    flex-flow: column wrap;
+}
+
+.FlexFlowColumnNoWrap{
+    flex-wrap: column nowrap;
+}
