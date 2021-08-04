@@ -11,6 +11,17 @@
     
 }
 
+.itemx{
+    color: #fff;
+    background-color: purple;
+    height: 100px;
+    width: 100px;
+}
+
+.altura{
+    height: 200px;
+}
+
 .container{
     padding: 2px;
     width: 400px;
@@ -117,3 +128,26 @@ caiba no container */
 }
 
 
+/* Align-itens */
+/* Os itens são alinhados assim como o justify porem eles seguem 
+um padrão selecionado para os itens do container*/
+
+.AI-stretch{
+    align-items: stretch;
+}
+
+.AI-center{
+    align-items: center;
+}
+
+.AI-start{
+    align-items: flex-start;
+}
+
+.AI-end{
+    align-items: flex-end;
+}
+
+.AI-baseline{
+    align-items: baseline;
+}
