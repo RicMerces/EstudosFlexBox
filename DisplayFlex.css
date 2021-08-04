@@ -151,3 +151,28 @@ um padrão selecionado para os itens do container*/
 .AI-baseline{
     align-items: baseline;
 }
+
+/* Align-contents */
+
+.AC-stretch{
+    align-content: stretch;
+}
+.AC-center{
+    align-content:center;
+}
+
+.AC-start{
+    align-content: flex-start;
+}
+
+.AC-end{
+    align-content: flex-end;
+}
+
+.AC-arround{
+    align-content:space-around;
+}
+
+.AC-between{
+    align-content:space-between;
+}
