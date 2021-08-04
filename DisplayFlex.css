@@ -37,6 +37,7 @@
 }
 
 /* Flex Direction  */
+/* Formata a divisão dos itens dentro de um container seja em colunas(verticais) ou em fileira horizontal */
 
 .row{
     flex-direction: row;
@@ -55,6 +56,8 @@
 }
 
 /* FlexWrap */
+/* Interfere diretamente no para realocar um elemento em outra linha para que 
+caiba no container */
 
 .FlexWrap{
     flex-wrap: wrap;
