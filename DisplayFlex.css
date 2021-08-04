@@ -1,3 +1,5 @@
+/* Padronização */
+
 *{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
@@ -16,12 +18,6 @@
     border: 1px #000 solid;
 }
 
-
-.Block{
-    display: block;
-    
-}
-
 .item{
     margin: 3px;
     background: purple  ;
@@ -29,15 +25,18 @@
     flex: 1; 
 }
 
+/* DisplayBlock */
+.Block{
+    display: block;
+}
 
+/* DisplayFlex */
 
 .Flex{
     display: flex;
 }
 
-.FlexWrap{
-    flex-wrap: wrap;
-}
+/* Flex Direction  */
 
 .row{
     flex-direction: row;
@@ -55,6 +54,11 @@
     flex-direction: column-reverse;
 }
 
+/* FlexWrap */
+
+.FlexWrap{
+    flex-wrap: wrap;
+}
 
 .FlexWrapNowrap{
     flex-wrap: nowrap;
@@ -63,3 +67,5 @@
 .FlexWrapReverse{
     flex-wrap: wrap-reverse;
 }
+
+
