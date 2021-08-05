@@ -176,3 +176,17 @@ um padrão selecionado para os itens do container*/
 .AC-between{
     align-content:space-between;
 }
+
+/* Flex Grow */
+
+.Grow0{
+    flex-grow: 0;
+}
+
+.Grow1{
+    flex-grow: 1;
+}
+
+.Grow2{
+    flex-wrap: 2;
+}

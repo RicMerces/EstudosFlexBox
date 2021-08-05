@@ -494,11 +494,47 @@
     
     <hr>
     <h2>Flex Itens</h2>
+    <p>O coteudo flex agora ao inves de ser amplo direcionado a todos elementos dentro do container 
+        ele estara ligado a item por item
+    </p>
 
     <div>
         <h1>Flex Grow</h1>
-
+        <p>O valor grow = 0 os itens não cobrem todo o container (segue o tamanho da div) grow = 1 cobre todo o container</p>    
     </div>
+
+    <div class="info">
+        <h4>Grow = 0 </h4>
+    </div>
+    <section class="container Flex">
+        <div class="item Grow0">Messi</div>
+        <div class="item Grow0">Neymar</div>
+        <div class="item Grow0">Mbappe</div>
+    </section>
+    <div class="info">
+        <h4>Grow = 1 </h4>
+    </div>
+    <section class="container Flex">
+        <div class="item Grow1">Messi</div>
+        <div class="item Grow1">Neymar</div>
+        <div class="item Grow1">Mbappe</div>
+    </section>
+    <div class="info">
+        <h4>Grow = 1 + 2x(Grow = 0) </h4>
+    </div>
+    <section class="container Flex">
+        <div class="item Grow0">Messi</div>
+        <div class="item Grow1">Neymar</div>
+        <div class="item Grow0">Mbappe</div>
+    </section>
+    <div class="info">
+        <h4>Grow = todos diferentes (0,1,2) </h4>
+    </div>
+    <section class="container Flex">
+        <div class="item Grow0">Messi</div>
+        <div class="item Grow1">Neymar</div>
+        <div class="item Grow2">Mbappe</div>
+    </section>
 
 </body>
 </html>
