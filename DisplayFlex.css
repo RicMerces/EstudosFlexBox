@@ -207,3 +207,21 @@ um padrão selecionado para os itens do container*/
 .FlexBasis300{
     flex-basis: 300px;
 }
+
+/* Flex Shrink */
+
+.FlexShrink-0{
+    flex-shrink: 0;
+}
+
+.FlexShrink-1{
+    flex-shrink: 1;
+}
+
+.FlexShrink-2{
+    flex-shrink: 2;
+}
+
+.FlexShrink-1{
+    flex-shrink: 3;
+}
