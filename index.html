@@ -536,5 +536,64 @@
         <div class="item Grow2">Mbappe</div>
     </section>
 
+    <div>
+        <h1>Flex Bases</h1>
+        <p>É um complento que detalha e formata de forma mais exata o flex grow</p>    
+    </div>
+    
+    <div class="info">
+        <h4>Flex Bases auto</h4>
+        <p>O flex bases auto define automaticamente a distancia interna do item Semelhante
+            ao paddinng right e left auto, gerando uma distancia padrão conforme o grow
+        </p>
+    </div>
+    <section class="container Flex">
+        <div class="item FlexBasisAuto Grow0">Exemplo</div>
+        <div class="item FlexBasisAuto Grow1">Exemplo</div>
+        <div class="item FlexBasisAuto Grow2">Exemplo</div>
+        <div class="item FlexBasisAuto Grow1">Exemplo</div>
+        <div class="item FlexBasisAuto Grow0">Exemplo</div>
+    </section>
+    <div class="info">
+        <h4>Flex Bases 0</h4>
+        <p>O flex bases 0 funciona semelhantemente o flex = 1, que tem como objetivo igualar 
+            o tamanho de todos os itens dentro do conntainer, Respeitando o conteudo ou seja ele não quebra uma 
+            palavra no meio apenas frases
+        </p>
+    </div>
+    <section class="container Flex">
+        <div class="item FlexBasis0 Grow1">Exemplozão dos cria</div>
+        <div class="item FlexBasis0 Grow1">Exemplooooo</div>
+        <div class="item FlexBasis0 Grow1">Exemplo vapo vapo vapo</div>
+        <div class="item FlexBasis0 Grow1">Exemplo salve salve familia </div>
+        <div class="item FlexBasis0 Grow1">Exemplo eeeeeh eu discordooo</div>
+    </section>
+    
+    <div class="info">
+        <h4>Flex Bases numero</h4>
+        <p>Quando atribuimos valores ele usa algo semelhante ao max-width ou seja 
+            é atribuido um tamanho maximo que o item pode chegar respeitando o conteudo
+            e o espaçamento
+        </p>
+    </div>
+    <h5>Grow 0</h5>
+    <section class="container Flex FlexWrap" >
+        <div class="item FlexBasis0 Grow0">Exemplozão dos cria</div>
+        <div class="item FlexBasis0 Grow0">Exemplooooo</div>
+        <div class="item FlexBasis300 Grow0">Exemplo vapo vapo vapo</div>
+        <div class="item FlexBasis100 Grow0">Exemplo salve salve familia </div>
+        <div class="item FlexBasis0 Grow0">Exemplo eeeeeh eu discordooo</div>
+    </section>
+    <h5>Grow 1</h5>
+    <p>Ignora ele aderi a dimensão do flex basis porem ele ainda quer cobrir todo o container</p>
+    <section class="container Flex FlexWrap" >
+        <div class="item FlexBasis0 Grow1">Exemplozão dos cria</div>
+        <div class="item FlexBasis0 Grow1">Exemplooooo</div>
+        <div class="item FlexBasis300 Grow1">Exemplo vapo vapo vapo</div>
+        <div class="item FlexBasis100 Grow1">Exemplo salve salve familia </div>
+        <div class="item FlexBasis0 Grow1">Exemplo eeeeeh eu discordooo</div>
+    </section>
+
+
 </body>
 </html>

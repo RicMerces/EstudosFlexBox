@@ -190,3 +190,20 @@ um padrão selecionado para os itens do container*/
 .Grow2{
     flex-wrap: 2;
 }
+
+/* Flex Bases */
+
+.FlexBasisAuto{
+    flex-basis: auto;
+}
+
+.FlexBasis0{
+    flex-basis: 0;
+}
+
+.FlexBasis100{
+    flex-basis: 100px;
+}
+.FlexBasis300{
+    flex-basis: 300px;
+}
