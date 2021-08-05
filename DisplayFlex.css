@@ -225,3 +225,29 @@ um padrão selecionado para os itens do container*/
 .FlexShrink-1{
     flex-shrink: 3;
 }
+
+
+/* Flex */
+
+.flex{
+    flex: 1;
+}
+
+.flex0{
+    flex: 0;
+}
+
+.flexGrow{
+    /* GROW - SHRINK - BASIS */
+    flex: 20 0 0;
+}
+
+.flexShrink{
+    /* GROW - SHRINK - BASIS */
+    flex: 0 20 0;
+}
+
+.flexBasis{
+    /* GROW - SHRINK - BASIS */
+    flex: 0 0 20;
+}
