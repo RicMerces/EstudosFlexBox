@@ -251,3 +251,9 @@ um padrão selecionado para os itens do container*/
     /* GROW - SHRINK - BASIS */
     flex: 0 0 20;
 }
+
+/* Order */
+
+.Order{
+    order: auto;
+}
