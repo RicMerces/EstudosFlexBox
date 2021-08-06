@@ -257,3 +257,16 @@ um padrão selecionado para os itens do container*/
 .Order{
     order: auto;
 }
+
+.Order2{
+    order: 2;
+}
+.Order3{
+    order: 3;
+}
+.Order4{
+    order: 4;
+}
+.Order5{
+    order: 5;
+}

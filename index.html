@@ -497,7 +497,7 @@
     <p>O coteudo flex agora ao inves de ser amplo direcionado a todos elementos dentro do container 
         ele estara ligado a item por item
     </p>
-
+    <hr>
     <div>
         <h1>Flex Grow</h1>
         <p>O valor grow = 0 os itens não cobrem todo o container (segue o tamanho da div) grow = 1 cobre todo o container</p>    
@@ -535,7 +535,7 @@
         <div class="item Grow1">Neymar</div>
         <div class="item Grow2">Mbappe</div>
     </section>
-
+    <hr>
     <div>
         <h1>Flex Bases</h1>
         <p>É um complento que detalha e formata de forma mais exata o flex grow</p>    
@@ -593,6 +593,7 @@
         <div class="item FlexBasis100 Grow1">Exemplo salve salve familia </div>
         <div class="item FlexBasis0 Grow1">Exemplo eeeeeh eu discordooo</div>
     </section>
+    <hr>
 
     <div class="info">
         <h1>Flex Shrink</h1>
@@ -653,6 +654,7 @@
         <div class="item flexBasis">Exemplo</div>
     </section>
 
+    <hr>
 
     <div class="info">
         <h1>Order</h1>
@@ -663,10 +665,84 @@
 
     <h4>Order = AUTO</h4>
     <div class="info">
-        O order auto 
+        O order auto deixa a ordem definida no proprio HTML
     </div>
     <section class="container Flex">
-        
+        <div class="item Order">OLA AMIGO 01 </div>
+        <div class="item Order">OLA AMIGO 02</div>
+        <div class="item Order">OLA AMIGO 03</div>
+        <div class="item Order">OLA AMIGO 04 </div>
+        <div class="item Order">OLA AMIGO 05</div>
     </section>
+    <br>
+    <section class="container Flex column">
+        <div class="item Order">OLA AMIGO 01 </div>
+        <div class="item Order">OLA AMIGO 02</div>
+        <div class="item Order">OLA AMIGO 03</div>
+        <div class="item Order">OLA AMIGO 04 </div>
+        <div class="item Order">OLA AMIGO 05</div>
+    </section>
+   
+    <h4>Order = diferentes</h4>
+    <div class="info">
+        Quanto maior o numero mais depois ele aparecera 
+    </div>
+    <section class="container Flex">
+        <div class="item Order3">OLA AMIGO 01 </div>
+        <div class="item Orde1">OLA AMIGO 02</div>
+        <div class="item Order5">OLA AMIGO 03</div>
+        <div class="item Order4">OLA AMIGO 04 </div>
+        <div class="item Order2">OLA AMIGO 05</div>
+    </section>
+    <br>
+    <section class="container Flex column">
+        <div class="item Order3">OLA AMIGO 01 </div>
+        <div class="item Orde1">OLA AMIGO 02</div>
+        <div class="item Order5">OLA AMIGO 03</div>
+        <div class="item Order4">OLA AMIGO 04 </div>
+        <div class="item Order2">OLA AMIGO 05</div>
+    </section>
+    
+    <h4>Order = IGUAIS</h4>
+    <div class="info">
+       Quando o order igual ao outro a prioridade é a ordem do HTML
+    </div>
+    <section class="container Flex">
+        <div class="item Order1">OLA AMIGO 01 </div>
+        <div class="item Orde1">OLA AMIGO 02</div>
+        <div class="item Order1">OLA AMIGO 03</div>
+        <div class="item Order1">OLA AMIGO 04 </div>
+        <div class="item Order1">OLA AMIGO 05</div>
+    </section>
+    <br>
+    <section class="container Flex column">
+        <div class="item Order1">OLA AMIGO 01 </div>
+        <div class="item Orde1">OLA AMIGO 02</div>
+        <div class="item Order1">OLA AMIGO 03</div>
+        <div class="item Order1">OLA AMIGO 04 </div>
+        <div class="item Order1">OLA AMIGO 05</div>
+    </section>
+   
+    <h4>Order = REVERSE</h4>
+    <div class="info">
+       Agora quanto maior o numero primeiro aparecera 
+    </div>
+    <section class="container Flex row-reverse">
+        <div class="item Order3">OLA AMIGO 01 </div>
+        <div class="item Orde1">OLA AMIGO 02</div>
+        <div class="item Order5">OLA AMIGO 03</div>
+        <div class="item Order4">OLA AMIGO 04 </div>
+        <div class="item Order2">OLA AMIGO 05</div>
+    </section>
+    <br>
+    <section class="container Flex column-reverse">
+        <div class="item Order3">OLA AMIGO 01 </div>
+        <div class="item Orde1">OLA AMIGO 02</div>
+        <div class="item Order5">OLA AMIGO 03</div>
+        <div class="item Order4">OLA AMIGO 04 </div>
+        <div class="item Order2">OLA AMIGO 05</div>
+    </section>
+
+    <hr>
 </body>
 </html>
