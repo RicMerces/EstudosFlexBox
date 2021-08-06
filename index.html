@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aprendendo Flex Box  </title>
+    <title>Aprendendo Flex Box </title>
     <link rel="stylesheet" href="DisplayFlex.css">
 
 </head>
+
 <body>
     <h2>Flex Container</h2>
     <h1>Display Block</h1>
     <div class="info">
         <p>O display block cada item ocupa os limites da <i class="fa fa-pagelines" aria-hidden="true"></i></p>
     </div>
-    
+
     <section class="container Block">
         <div class="item">1</div>
         <div class="item">2</div>
@@ -23,7 +25,7 @@
     </section>
 
     <h1>Display Flex</h1>
-    
+
     <div class="info">
         <p>O display gera um tamanho atraves dos itens dentro da box</p>
     </div>
@@ -38,7 +40,8 @@
     </section>
     <br>
     <div class="info">
-        <p >O Display Flex permite que ele quebre até ao menos uma frase, porem não divide uma palavra e pode ultrapassar o tamanho de uma box</p>
+        <p>O Display Flex permite que ele quebre até ao menos uma frase, porem não divide uma palavra e pode ultrapassar
+            o tamanho de uma box</p>
     </div>
 
     <section class="container Flex">
@@ -55,10 +58,10 @@
     </section>
     <br>
     <div class="info">
-        <p>Usando o flex wrap ocorre a quebra de linha  </p>
+        <p>Usando o flex wrap ocorre a quebra de linha </p>
         <p>usando o Flex: 1; permite que ocupe todo o container (possibilita qe tenha tamanhos diferentes)</p>
     </div>
-   
+
     <section class="container Flex FlexWrap">
         <div class="item">TESTE 02</div>
         <div class="item">TESTE 02</div>
@@ -81,13 +84,13 @@
         <h4>ROW</h4>
         <p>ROW é usado como uma maneira para dividir por item o que tem dentro do container</p>
     </div>
-   
+
     <section class="container Flex row">
         <div class="item">TESTE 03</div>
         <div class="item">TESTE 03</div>
         <div class="item">TESTE 03</div>
     </section>
-    
+
     <div class="info">
         <h4>ROW - REVERSE</h4>
         <p>A ordem fica invertida do ultimo para o primeiro</p>
@@ -98,7 +101,7 @@
         <div class="item">TESTE 03</div>
         <div class="item">TESTE 03</div>
     </section>
-    
+
     <div class="info">
         <h4>COLUMN</h4>
         <p>Semelhante ao mecanismo do Display block mesmo sendo flex ordenando os itens dentro do container</p>
@@ -109,7 +112,7 @@
         <div class="item">TESTE 03</div>
         <div class="item">TESTE 03</div>
     </section>
-    
+
     <div class="info">
         <h4>COLUMN - REVERSE</h4>
         <p>A ordem fica invertida do ultimo para o primeiro</p>
@@ -126,21 +129,24 @@
 
     <div class="info">
         <h4>Nowrap</h4>
-        <p>ele não quebra a linha quando tem mais informações de um item ultrapassando os limites do container, o que acontece é que os valores de uma frase descem as linhas para caber no container porem se a palavra for grande transborda</p>
+        <p>ele não quebra a linha quando tem mais informações de um item ultrapassando os limites do container, o que
+            acontece é que os valores de uma frase descem as linhas para caber no container porem se a palavra for
+            grande transborda</p>
     </div>
-    
-    <section class="container Flex FlexWrapNowrap"> 
+
+    <section class="container Flex FlexWrapNowrap">
         <div class="item">TESTANDO 04 os valores</div>
         <div class="item">TESTE apenas para saber se quebra a linha</div>
         <div class="item">testandoparaversevaifuncionarsequebraalinha</div>
     </section>
-    
+
     <div class="info">
         <h4>Wrap</h4>
-        <p>Ocorre a quebra de linha para que todos os itens caibam dentro do container, podendo ter gerar medidas diferentes</p>
+        <p>Ocorre a quebra de linha para que todos os itens caibam dentro do container, podendo ter gerar medidas
+            diferentes</p>
     </div>
-    
-    <section class="container Flex FlexWrap"> 
+
+    <section class="container Flex FlexWrap">
         <div class="item">TESTANDO 05 os valores</div>
         <div class="item">TESTE apenas para saber se quebra a linha</div>
         <div class="item">testandoparaversevaifuncionarsequebraalinha</div>
@@ -150,8 +156,8 @@
         <h4>Wrap Reverse</h4>
         <p>Ordena inversamento os itens da mesma maneira que o wrap so que opostamente</p>
     </div>
-    
-    <section class="container Flex FlexWrapReverse"> 
+
+    <section class="container Flex FlexWrapReverse">
         <div class="item">TESTANDO 06 os valores</div>
         <div class="item">TESTE apenas para saber se quebra a linha</div>
         <div class="item">testandoparaversevaifuncionarsequebraalinha</div>
@@ -161,7 +167,7 @@
 
     <div class="info">
         <h1>Flex-Flow</h1>
-        <p>Basicamente um atalho para usar as ferramentas do Flex Direction e do Flex </p>    
+        <p>Basicamente um atalho para usar as ferramentas do Flex Direction e do Flex </p>
     </div>
 
     <div class="info">
@@ -202,13 +208,13 @@
     <div class="info">
         <h1>Justify-content</h1>
         <p>Justificar os conteutos flex onde vai ser definido onde cada item vai estar posicionado </p>
-    </div>  
-    
-    
+    </div>
+
+
     <div class="info">
         <h4>Justify-content FlexStart</h4>
-       
-    </div>  
+
+    </div>
     <section class="container Flex JustifyContent jc-flexStart">
         <div class="item">TESTE 11</div>
         <div class="item">TESTE 11</div>
@@ -217,8 +223,8 @@
     </section>
     <div class="info">
         <h4>Justify-content FlexEnd</h4>
-       
-    </div>  
+
+    </div>
     <section class="container Flex JustifyContent jc-flexEnd">
         <div class="item">TESTE 11</div>
         <div class="item">TESTE 11</div>
@@ -227,8 +233,8 @@
     </section>
     <div class="info">
         <h4>Justify-content center</h4>
-       
-    </div>  
+
+    </div>
     <section class="container Flex JustifyContent jc-center">
         <div class="item">TESTE 11</div>
         <div class="item">TESTE 11</div>
@@ -237,8 +243,8 @@
     </section>
     <div class="info">
         <h4>Justify-content SpaceBetween</h4>
-       
-    </div>  
+
+    </div>
     <section class="container Flex JustifyContent jc-SpaceBetween">
         <div class="item">TESTE 11</div>
         <div class="item">TESTE 11</div>
@@ -247,8 +253,8 @@
     </section>
     <div class="info">
         <h4>Justify-content SpaceArround</h4>
-       
-    </div>  
+
+    </div>
     <section class="container Flex JustifyContent jc-SpaceArround">
         <div class="item">TESTE 11</div>
         <div class="item">TESTE 11</div>
@@ -263,7 +269,7 @@
             porem como Não resta espaçamento ocorre isso (Os espaçamentos so ocorrem devido a margem)
 
         </p>
-    </div>  
+    </div>
     <section class="container Flex  jc-SpaceArround">
         <div class="item">TESTE 11</div>
         <div class="item">TESTE 11</div>
@@ -273,49 +279,49 @@
 
     <div class="info">
         <h4>Justify-content - start + Column </h4>
-       
-    </div>  
+
+    </div>
     <section class="container altura Flex JustifyContent jc-flexStart column">
         <div class="item">TESTE 11</div>
         <div class="item">TESTE 11</div>
         <div class="item">TESTANDO 11</div>
         <div class="item">TESTE 11</div>
     </section>
-    
+
     <div class="info">
         <h4>Justify-content - end + Column </h4>
-       
-    </div>  
+
+    </div>
     <section class="container altura Flex JustifyContent jc-flexEnd column">
         <div class="item">TESTE 11</div>
         <div class="item">TESTE 11</div>
         <div class="item">TESTANDO 11</div>
         <div class="item">TESTE 11</div>
     </section>
-    
+
     <div class="info">
         <h4>Justify-content - center + Column </h4>
-    </div>  
+    </div>
     <section class="container altura Flex JustifyContent jc-center column">
         <div class="item">TESTE 11</div>
         <div class="item">TESTE 11</div>
         <div class="item">TESTANDO 11</div>
         <div class="item">TESTE 11</div>
     </section>
-    
+
     <div class="info">
         <h4>Justify-content - SpaceArround + Column </h4>
-    </div>  
+    </div>
     <section class="container altura Flex JustifyContent jc-SpaceArround column">
         <div class="item">TESTE 11</div>
         <div class="item">TESTE 11</div>
         <div class="item">TESTANDO 11</div>
         <div class="item">TESTE 11</div>
     </section>
-    
+
     <div class="info">
         <h4>Justify-content - SpaceBetween + Column </h4>
-    </div>  
+    </div>
     <section class="container altura Flex JustifyContent jc-SpaceBetween column">
         <div class="item">TESTE 11</div>
         <div class="item">TESTE 11</div>
@@ -324,10 +330,11 @@
     </section>
 
     <hr>
-    
+
     <div class="info">
         <h1>Align-itens</h1>
-        <p>Outra maneira de alinhar os itens conforme o conntainer, tendo o alinhamento diferente conforme as linhas e colunas</p>
+        <p>Outra maneira de alinhar os itens conforme o conntainer, tendo o alinhamento diferente conforme as linhas e
+            colunas</p>
     </div>
 
     <div class="info">
@@ -366,7 +373,7 @@
         <h4>Align-itens : baseline; </h4>
     </div>
     <section class="container Flex AI-baseline">
-        <div class="item" style="padding-top: 30px;"> <span>   </span> IREI PARA VALHALLA APOS A BATALHA</div>
+        <div class="item" style="padding-top: 30px;"> <span> </span> IREI PARA VALHALLA APOS A BATALHA</div>
         <div class="item">EU SEREI O REI DOS PIRATAS</div>
         <div class="item">EU SEREI UM GRANDE HOKAGE TO CERTO :)</div>
     </section>
@@ -410,14 +417,14 @@
         <div class="item">EU SEREI O REI DOS PIRATAS</div>
         <div class="item">EU SEREI UM GRANDE HOKAGE TO CERTO :)</div>
     </section>
-    
+
     <div class="info">
         <h4>Align-itens + Justify = center</h4>
     </div>
     <section class="container Flex AI-center altura jc-center">
         <div class="itemx"> IREI PARA VALHALLA APOS A BATALHA</div>
     </section>
-    
+
     <hr>
 
     <div class="info">
@@ -491,16 +498,17 @@
         <div class="item">05 SOU TÃO PEQUENO FRENTE A ESSE MAR</div>
         <div class="item">06 MEUS SOCOS CAUSAM PRESSÃO NO AR</div>
     </section>
-    
+
     <hr>
     <h2>Flex Itens</h2>
-    <p>O coteudo flex agora ao inves de ser amplo direcionado a todos elementos dentro do container 
+    <p>O coteudo flex agora ao inves de ser amplo direcionado a todos elementos dentro do container
         ele estara ligado a item por item
     </p>
     <hr>
     <div>
         <h1>Flex Grow</h1>
-        <p>O valor grow = 0 os itens não cobrem todo o container (segue o tamanho da div) grow = 1 cobre todo o container</p>    
+        <p>O valor grow = 0 os itens não cobrem todo o container (segue o tamanho da div) grow = 1 cobre todo o
+            container</p>
     </div>
 
     <div class="info">
@@ -538,9 +546,9 @@
     <hr>
     <div>
         <h1>Flex Bases</h1>
-        <p>É um complento que detalha e formata de forma mais exata o flex grow</p>    
+        <p>É um complento que detalha e formata de forma mais exata o flex grow</p>
     </div>
-    
+
     <div class="info">
         <h4>Flex Bases auto</h4>
         <p>O flex bases auto define automaticamente a distancia interna do item Semelhante
@@ -556,8 +564,8 @@
     </section>
     <div class="info">
         <h4>Flex Bases 0</h4>
-        <p>O flex bases 0 funciona semelhantemente o flex = 1, que tem como objetivo igualar 
-            o tamanho de todos os itens dentro do conntainer, Respeitando o conteudo ou seja ele não quebra uma 
+        <p>O flex bases 0 funciona semelhantemente o flex = 1, que tem como objetivo igualar
+            o tamanho de todos os itens dentro do conntainer, Respeitando o conteudo ou seja ele não quebra uma
             palavra no meio apenas frases
         </p>
     </div>
@@ -568,16 +576,16 @@
         <div class="item FlexBasis0 Grow1">Exemplo salve salve familia </div>
         <div class="item FlexBasis0 Grow1">Exemplo eeeeeh eu discordooo</div>
     </section>
-    
+
     <div class="info">
         <h4>Flex Bases numero</h4>
-        <p>Quando atribuimos valores ele usa algo semelhante ao max-width ou seja 
+        <p>Quando atribuimos valores ele usa algo semelhante ao max-width ou seja
             é atribuido um tamanho maximo que o item pode chegar respeitando o conteudo
             e o espaçamento
         </p>
     </div>
     <h5>Grow 0</h5>
-    <section class="container Flex FlexWrap" >
+    <section class="container Flex FlexWrap">
         <div class="item FlexBasis0 Grow0">Exemplozão dos cria</div>
         <div class="item FlexBasis0 Grow0">Exemplooooo</div>
         <div class="item FlexBasis300 Grow0">Exemplo vapo vapo vapo</div>
@@ -586,7 +594,7 @@
     </section>
     <h5>Grow 1</h5>
     <p>Ignora ele aderi a dimensão do flex basis porem ele ainda quer cobrir todo o container</p>
-    <section class="container Flex FlexWrap" >
+    <section class="container Flex FlexWrap">
         <div class="item FlexBasis0 Grow1">Exemplozão dos cria</div>
         <div class="item FlexBasis0 Grow1">Exemplooooo</div>
         <div class="item FlexBasis300 Grow1">Exemplo vapo vapo vapo</div>
@@ -597,7 +605,7 @@
 
     <div class="info">
         <h1>Flex Shrink</h1>
-        <p>O Flex Shrink tem como objetivo compactar ao maximo o tamanho dos elementos respeitando o conteudo</p>    
+        <p>O Flex Shrink tem como objetivo compactar ao maximo o tamanho dos elementos respeitando o conteudo</p>
     </div>
     <div class="info">
         <h4>Flex Shrink = 0</h4>
@@ -637,7 +645,7 @@
         <div class="item flexGrow">Exemplo</div>
         <div class="item flexGrow">Exemplo</div>
     </section>
-  
+
     <h4>Flex 0 20px 0 </h4>
     <section class="container Flex">
         <div class="item flexShrink">Exemploooooooooooooooo</div>
@@ -645,7 +653,7 @@
         <div class="item flexShrink">Exemplo</div>
         <div class="item flexShrink">Exemplo</div>
     </section>
-    
+
     <h4>Flex 0 0 20px </h4>
     <section class="container Flex">
         <div class="item flexBasis">Exemplo</div>
@@ -659,7 +667,7 @@
     <div class="info">
         <h1>Order</h1>
         <p>O Order define a ordem em que os elementos vão se alinhar conforme menor o numero ele aparecera primeiro
-            se usarmos o reverse inverte e ele aparecera por ultimo 
+            se usarmos o reverse inverte e ele aparecera por ultimo
         </p>
     </div>
 
@@ -682,10 +690,10 @@
         <div class="item Order">OLA AMIGO 04 </div>
         <div class="item Order">OLA AMIGO 05</div>
     </section>
-   
+
     <h4>Order = diferentes</h4>
     <div class="info">
-        Quanto maior o numero mais depois ele aparecera 
+        Quanto maior o numero mais depois ele aparecera
     </div>
     <section class="container Flex">
         <div class="item Order3">OLA AMIGO 01 </div>
@@ -702,10 +710,10 @@
         <div class="item Order4">OLA AMIGO 04 </div>
         <div class="item Order2">OLA AMIGO 05</div>
     </section>
-    
+
     <h4>Order = IGUAIS</h4>
     <div class="info">
-       Quando o order igual ao outro a prioridade é a ordem do HTML
+        Quando o order igual ao outro a prioridade é a ordem do HTML
     </div>
     <section class="container Flex">
         <div class="item Order1">OLA AMIGO 01 </div>
@@ -722,10 +730,10 @@
         <div class="item Order1">OLA AMIGO 04 </div>
         <div class="item Order1">OLA AMIGO 05</div>
     </section>
-   
+
     <h4>Order = REVERSE</h4>
     <div class="info">
-       Agora quanto maior o numero primeiro aparecera 
+        Agora quanto maior o numero primeiro aparecera
     </div>
     <section class="container Flex row-reverse">
         <div class="item Order3">OLA AMIGO 01 </div>
@@ -744,5 +752,38 @@
     </section>
 
     <hr>
+
+    <div class="info">
+        <h1>Align-self</h1>
+        <p>É um align-itens direcionado para apenas um item ou seja você pode selecionar
+            o item e dizer como deseja posicionalo
+        </p>
+    </div>
+
+    <h4>Usando um de cada vez</h4>
+    <section class="container Flex">
+        <div class="item AS-auto">Auto</div>
+        <div class="item AS-stretch">Stretch</div>
+        <div class="item AS-center">Center</div>
+        <div class="item AC-start">Flex-start</div>
+        <div class="item AS-end">Flex-end</div>
+        <div class="item AS-baseline">baseline</div>
+    </section>
+   
+    <h4>Align-self + align-itens</h4>
+    <p>A prioridade é o align-self se não tiver ou for auto mudara para o align-item</p>
+    <section class="container Flex AI-stretch">
+        <div class="item">Auto</div>
+        <div class="item">Stretch</div>
+        <div class="item AS-center">Center</div>
+        <div class="item">Flex-start</div>
+        <div class="item AS-end">Flex-end</div>
+        <div class="item ">baseline</div>
+    </section>
+
+
+
+
 </body>
+
 </html>

@@ -270,3 +270,30 @@ um padrão selecionado para os itens do container*/
 .Order5{
     order: 5;
 }
+
+
+/* Align-self */
+
+.AS-auto{
+    align-self:auto;
+}
+
+.AS-stretch{
+    align-self: stretch;
+}
+
+.AS-baseline{
+    align-self:baseline;
+}
+
+.AS-start{
+    align-self:flex-start;
+}
+
+.AS-end{
+    align-self: flex-end;
+}
+
+.AS-center{
+    align-self:center;
+}
